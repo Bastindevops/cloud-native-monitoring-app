@@ -1,0 +1,4 @@
+System Monitoring
+{% if message %}
+{{ message }}
+{% endif %}
