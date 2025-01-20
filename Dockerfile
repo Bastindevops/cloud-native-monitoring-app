@@ -2,9 +2,9 @@ FROM python:3.9-buster
 
 WORKDIR /app
 
-COPY requirement.txt .
+COPY requirement
 
-RUN pip3 install --no-cache-dir -r requirement.txt
+RUN pip3 install --no-cache-dir -r requirement
 
 COPY . .
 
